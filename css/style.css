@@ -1,6 +1,9 @@
 body{
 	background-image: url(../fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
 }
+
 
 
 #foto{
@@ -23,6 +26,7 @@ body{
     top: 15%;
     right: 22%;
     display: none;
+    min-width: 468px;
 }
 
 #myDivHome2{
@@ -33,6 +37,7 @@ body{
     top: 24%;
     right: 27%;
     display: none;
+    min-width: 397px;
 }
 
 
@@ -44,11 +49,12 @@ body{
 }
 
 #text{
-	
     text-align: center;
     position: fixed;
-    height: 54%;
+    height: 40%;
     width: 50%;
+    min-width: 372px;
+    bottom: 19%;
 }
 
 .menu1{
@@ -248,4 +254,8 @@ h6{
 .containers{
     display: none;
     min-width: 900px;
+}
+
+#logoImg{
+    height: 100%;
 }
