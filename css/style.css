@@ -1,0 +1,251 @@
+body{
+	background-image: url(../fundo.jpg);
+}
+
+
+#foto{
+    margin-left: 400px;
+    width:30%;
+    height:20%;
+}
+
+
+#radio{
+    text-align: center;
+    font-family: fonte4;
+}
+
+#myDivHome{
+	height: 80%;
+    width: 60%;
+    background-image: url(../fundo2.jpg);
+    position: fixed;
+    top: 15%;
+    right: 22%;
+    display: none;
+}
+
+#myDivHome2{
+    height: 64%;
+    width: 50%;
+    background-color: #f11f5970;
+    position: fixed;
+    top: 24%;
+    right: 27%;
+    display: none;
+}
+
+
+#textTitulo{
+	text-align: center;
+    margin-top: 2%;
+    text-decoration: underline;
+    font-family: fonte1;
+}
+
+#text{
+	
+    text-align: center;
+    position: fixed;
+    height: 54%;
+    width: 50%;
+}
+
+.menu1{
+	background-color:#f5a6b4;
+	height: 60px;
+    font-family: fonte3;
+    font-size: 200%;
+    min-width: 900px;
+}
+
+.menu{
+	margin: 0 auto;
+}
+
+
+@font-face{
+    font-family: fonte1;
+    src: url("../fonts/fontSite.ttf");
+}
+
+
+@font-face{
+    font-family: fonte2;
+    src: url("../fonts/fontBlack.ttf");
+}
+
+@font-face{
+    font-family: fonte3;
+    src: url("../fonts/fontMenu.ttf");
+}
+
+
+#promocao{
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+    font-family: fonte2;
+    font-size: 600%;
+    color: black;
+    min-width: 900px;
+}
+
+.fontDani{
+    font-family: fonte1;
+}
+.fontDani{
+    font-family: fonte2;
+}
+.fontDani{
+    font-family: fonte3;
+}
+
+
+.myDivSlide{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: none;
+    min-width: 900px;
+}
+
+
+.carousel{
+    width: 75%;
+    height: 630px;
+    top: 5%;
+    margin: 0 auto;
+}
+
+ .none{
+    position: fixed;
+    top: 68%;
+    width: 13%;
+    color: black;
+    text-align: center;
+}
+
+
+#texto1{
+    text-decoration: line-through;
+    color: red;
+    text-align: center;
+}
+
+#titulo{
+	width: 40%;
+    margin: 0 auto;
+    color: #ff166c;
+    font-family: fonte1;
+    font-size: 306%;
+}
+
+#orcamento{
+	width: 40%;
+    margin: 0 auto;
+    color: #007bff;
+    font-family: fonte1;
+    font-size: 222%;
+}
+
+#opcoes{
+	width: 15%;
+    margin: 0 auto;
+    font-family: fonte1;
+    font-size: 222%;
+    color: #ff1ea5;
+}
+
+#opcoes2{
+	width: 42%;
+    margin: 0 auto;
+}
+
+#valor{
+	width: 40%;
+    margin: 0 auto;
+}
+
+#pagamento{
+	width: 117%;
+    margin: 0 auto;
+}
+
+#entrada{
+    width: 25%;
+}
+
+#btCalcular{
+    margin-left: 73%;
+
+}
+
+#resumo{
+	width: 35%;
+    margin: 0 auto;
+}
+
+#cartoes{
+    height: 68px;
+    width: 68%;
+    margin: 0 auto;
+    margin-top: 4%;
+    min-width: 900px;
+}
+
+.logoCartoes{
+    height: 97%;
+    width: 16%;
+    margin: 0 auto;
+}
+
+
+.flores {
+    width: 70%!important;
+    margin: 0 auto;
+}
+
+.image{
+    height: 135px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    margin: 0 auto;
+    height: 1215px;
+    min-width: 1140px;
+}
+
+
+#card1{
+    margin-top: 5%;
+}
+
+
+#card2{
+    margin-bottom: 10%;
+}
+
+h4{
+    font-family: fonte1;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+.containers{
+    display: none;
+    min-width: 900px;
+}
