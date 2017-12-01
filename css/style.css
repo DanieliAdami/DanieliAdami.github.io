@@ -1,7 +1,8 @@
 body{
-	background-image: url(../fundo.jpg);
+	background-image: url(../imagens/fundo.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%
+    background-size: 100% 100%;
+    min-height: 1006px;
 }
 
 
@@ -21,7 +22,7 @@ body{
 #myDivHome{
 	height: 80%;
     width: 60%;
-    background-image: url(../fundo2.jpg);
+    background-image: url(../imagens/fundo2.jpg);
     position: fixed;
     top: 15%;
     right: 22%;
@@ -58,7 +59,7 @@ body{
 }
 
 .menu1{
-	background-color:#f5a6b4;
+	background-color: #ffb1cd;
 	height: 60px;
     font-family: fonte3;
     font-size: 200%;
@@ -88,13 +89,17 @@ body{
 
 
 #promocao{
-    text-align: center;
+   text-align: center;
     display: none;
     margin-top: 10px;
     font-family: fonte2;
     font-size: 600%;
     color: black;
     min-width: 900px;
+    background-color: #ffb1cde6;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 2%;
 }
 
 .fontDani{
@@ -228,6 +233,12 @@ body{
     min-width: 1140px;
 }
 
+#divContainer{
+    margin: 0 auto;
+    height: 1215px;
+    background-color: #ffb1cde6;
+    width: 80%;
+}
 
 #card1{
     margin-top: 5%;
@@ -259,3 +270,12 @@ h6{
 #logoImg{
     height: 100%;
 }
+
+#resumo {
+    width: 29%;
+    margin: 0 auto;
+    height: 12%;
+    margin-top: -7%;
+    margin-right: 29%;
+}
+

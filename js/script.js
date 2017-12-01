@@ -23,63 +23,63 @@ function trocarFlor() {
     var foto= document.getElementById("foto");
 
 if(gerberas.checked){
-    foto.src="gerberas.jpg";
+    foto.src="imagens/gerberas.jpg";
     valor=50;
     modelo="gerberas";
 }else if(orquideas.checked){
-    foto.src="orquideas.jpg";
+    foto.src="imagens/orquideas.jpg";
     valor=50;
     modelo="orquideas";
 }else if(rosas.checked){
-    foto.src="rosas.jpg";
+    foto.src="imagens/rosas.jpg";
     valor=50;
     modelo="rosas";
 }else if(lisianthus.checked){
-    foto.src="lisianthus.jpg";
+    foto.src="imagens/lisianthus.jpg";
     valor=50;
     modelo="lisianthus";
 }else if(lirios.checked){
-    foto.src="lirios.jpg";
+    foto.src="imagens/lirios.jpg";
     valor=50;
     modelo="lirios";
 }else if(astromelias.checked){
-    foto.src="astromelias.jpg";
+    foto.src="imagens/astromelias.jpg";
     valor=50;
     modelo="astromelias";
 }else if(copoDeLeite.checked){
-    foto.src="copoDeLeite.jpg";
+    foto.src="imagens/copoDeLeite.jpg";
     valor=50;
     modelo="copoDeLeite";
 }else if(girassois.checked){
-    foto.src="girassois.jpg";
+    foto.src="imagens/girassois.jpg";
     valor=50;
     modelo="girassois";
 }else if(jasmim.checked){
-    foto.src="jasmim.jpg";
+    foto.src="imagens/jasmim.jpg";
     valor=50;
     modelo="jasmim";
 }else if(cravos.checked){
-    foto.src="cravos.jpg";
+    foto.src="imagens/cravos.jpg";
     valor=50;
     modelo="cravos";
 }else if(crisantemos.checked){
-    foto.src="crisantemos.jpg";
+    foto.src="imagens/crisantemos.jpg";
     valor=50;
     modelo="crisantemos";
 }else if(calendula.checked){
-    foto.src="calendula.jpg";
+    foto.src="imagens/calendula.jpg";
     valor=50;
     modelo="calendula";
 }else if(lavanda.checked){
-    foto.src="lavanda.jpg";
+    foto.src="imagens/lavanda.jpg";
     valor=50;
     modelo="lavanda";
 }else if(margaridas.checked){
-    foto.src="margaridas.jpg";
+    foto.src="imagens/margaridas.jpg";
     valor=50;
     modelo="margaridas";
 }else{
-    foto.src="cineraria.jpg";
+    foto.src="imagens/cineraria.jpg";
     valor=50;
     modelo="cinerarias";
 }
@@ -205,6 +205,9 @@ $(document).ready(function(){
        $(".container").show();
      $(".containers").show();
    $("#titulo").hide();
+   $("#divContainer").attr('style', 'background-color: transparent');
+
+
     } );
 
 
@@ -230,6 +233,7 @@ $(document).ready(function(){
          $(".none").hide();
        $("#cartoes").show();
      $(".containers").hide();
+     $("#divContainer").attr('style', 'background-color: #ffb1cde6');
     } );
 
 
@@ -258,5 +262,7 @@ $(document).ready(function(){
        $(".none").hide();
      $("#cartoes").hide();
    $(".containers").hide();
+   $("#divContainer").attr('style', 'background-color: transparent');
+
    } );  
 } );
