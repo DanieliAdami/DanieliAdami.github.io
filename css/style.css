@@ -1,7 +1,7 @@
 body{
 	background-image: url(../imagens/fundo.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 120% 120%;
     min-height: 1006px;
 }
 
@@ -11,6 +11,8 @@ body{
     margin-left: 400px;
     width:30%;
     height:20%;
+    margin-top: -78px;
+    min-width: 279px;
 }
 
 
@@ -151,6 +153,7 @@ body{
     color: #ff166c;
     font-family: fonte1;
     font-size: 306%;
+    min-width: 372px;
 }
 
 #orcamento{
@@ -159,6 +162,7 @@ body{
     color: #007bff;
     font-family: fonte1;
     font-size: 222%;
+    min-width: 380px;
 }
 
 #opcoes{
@@ -172,16 +176,20 @@ body{
 #opcoes2{
 	width: 42%;
     margin: 0 auto;
+    min-width: 382px;
 }
 
 #valor{
 	width: 40%;
     margin: 0 auto;
+    min-width: 334px;
 }
 
 #pagamento{
 	width: 117%;
     margin: 0 auto;
+    margin-left: -56px;
+    min-width: 1020px;
 }
 
 #entrada{
@@ -190,19 +198,16 @@ body{
 
 #btCalcular{
     margin-left: 73%;
-
+    margin-top: -40px;
 }
 
-#resumo{
-	width: 35%;
-    margin: 0 auto;
-}
+
 
 #cartoes{
     height: 68px;
     width: 68%;
     margin: 0 auto;
-    margin-top: 4%;
+    margin-top: 140px;
     min-width: 900px;
 }
 
@@ -219,7 +224,7 @@ body{
 }
 
 .image{
-    height: 135px;
+    height: 90px;
     margin-left: 20px;
     margin-right: 20px; 
     margin-top: 30px;
@@ -229,15 +234,16 @@ body{
 
 .container{
     margin: 0 auto;
-    height: 1215px;
-    min-width: 1140px;
+    height: 100%;
+    width: 110%;
 }
 
 #divContainer{
     margin: 0 auto;
-    height: 1215px;
+    height: 1060px;
     background-color: #ffb1cde6;
     width: 80%;
+    min-width: 1155px;
 }
 
 #card1{
@@ -265,6 +271,7 @@ h6{
 .containers{
     display: none;
     min-width: 900px;
+    height: 279px;
 }
 
 #logoImg{
@@ -274,8 +281,12 @@ h6{
 #resumo {
     width: 29%;
     margin: 0 auto;
-    height: 12%;
-    margin-top: -7%;
-    margin-right: 29%;
+    height: 14%;
+    margin-top: -5%;
+    margin-right: 35%;
 }
 
+
+.grupo{
+        height: 280px;
+}

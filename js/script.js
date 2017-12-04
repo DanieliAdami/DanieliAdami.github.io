@@ -24,31 +24,31 @@ function trocarFlor() {
 
 if(gerberas.checked){
     foto.src="imagens/gerberas.jpg";
-    valor=50;
+    valor=52;
     modelo="gerberas";
 }else if(orquideas.checked){
     foto.src="imagens/orquideas.jpg";
-    valor=50;
+    valor=60;
     modelo="orquideas";
 }else if(rosas.checked){
     foto.src="imagens/rosas.jpg";
-    valor=50;
+    valor=56;
     modelo="rosas";
 }else if(lisianthus.checked){
     foto.src="imagens/lisianthus.jpg";
-    valor=50;
+    valor=54;
     modelo="lisianthus";
 }else if(lirios.checked){
     foto.src="imagens/lirios.jpg";
-    valor=50;
+    valor=57;
     modelo="lirios";
 }else if(astromelias.checked){
     foto.src="imagens/astromelias.jpg";
-    valor=50;
+    valor=53;
     modelo="astromelias";
 }else if(copoDeLeite.checked){
     foto.src="imagens/copoDeLeite.jpg";
-    valor=50;
+    valor=31;
     modelo="copoDeLeite";
 }else if(girassois.checked){
     foto.src="imagens/girassois.jpg";
@@ -56,31 +56,31 @@ if(gerberas.checked){
     modelo="girassois";
 }else if(jasmim.checked){
     foto.src="imagens/jasmim.jpg";
-    valor=50;
+    valor=69;
     modelo="jasmim";
 }else if(cravos.checked){
     foto.src="imagens/cravos.jpg";
-    valor=50;
+    valor=42;
     modelo="cravos";
 }else if(crisantemos.checked){
     foto.src="imagens/crisantemos.jpg";
-    valor=50;
+    valor=40;
     modelo="crisantemos";
 }else if(calendula.checked){
     foto.src="imagens/calendula.jpg";
-    valor=50;
+    valor=37;
     modelo="calendula";
 }else if(lavanda.checked){
     foto.src="imagens/lavanda.jpg";
-    valor=50;
+    valor=31;
     modelo="lavanda";
 }else if(margaridas.checked){
     foto.src="imagens/margaridas.jpg";
-    valor=50;
+    valor=25;
     modelo="margaridas";
 }else{
     foto.src="imagens/cineraria.jpg";
-    valor=50;
+    valor=29;
     modelo="cinerarias";
 }
 document.getElementById("preco").innerHTML=valor.toFixed(2);
