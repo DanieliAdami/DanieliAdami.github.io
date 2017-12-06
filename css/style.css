@@ -21,7 +21,7 @@ body{
     font-family: fonte4;
 }
 
-#myDivHome{
+#myDivValores{
 	height: 80%;
     width: 60%;
     background-image: url(../imagens/fundo2.jpg);
@@ -32,7 +32,7 @@ body{
     min-width: 468px;
 }
 
-#myDivHome2{
+#myDivValores2{
     height: 64%;
     width: 50%;
     background-color: #f11f5970;
@@ -289,4 +289,36 @@ h6{
 
 .grupo{
         height: 280px;
+}
+
+
+#divMomentos{
+    height: 1000px;
+    width: 80%;
+    background-color: #ffb1cde8;
+    margin: 0 auto;
+    display: none;
+    min-width: 1366px;
+}
+
+
+
+.imgMomentos{
+    height: 30%;
+    width: 30%;
+    margin-left: 33px;
+    margin-top: 25px;
+}
+
+
+#txtMomentos{
+    font-family: fonte1;
+    font-size: 249%;
+    text-align: center;
+    color: white;
+    background: #6e7bffdb;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 1365px;
+    display: none;
 }

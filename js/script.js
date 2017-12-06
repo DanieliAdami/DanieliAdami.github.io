@@ -181,8 +181,42 @@ document.getElementById("liParcelas").innerHTML = " + "+  parcelas +" x de R$:"+
 
 $(document).ready(function(){
 
-     $("#home").click(function() {
-       $("#orcamento").hide();
+
+ $("#home").click(function() {
+   $("#orcamentoMenu").show();
+     $("#radio").hide();
+       $("#foto").hide();
+         $("#opcoes").hide();
+           $("#opcoes2").hide();
+             $("#valor").hide();
+               $("#orcamento").hide();
+                 $("#radio").hide();
+                   $(".hr").hide();
+                     $("#pagamento").hide();
+                       $("#resumo").hide();
+                         $("#valores").hide();
+                           $("#contato").show();
+                             $("#myDivValores").hide();
+                           $("#myDivValores2").hide();
+                         $(".container").hide(); 
+                       $(".myDivSlide").hide();
+                     $("#promocao").hide();
+                   $(".none").hide();
+                 $("#cartoes").hide();
+               $(".container").hide();
+             $(".containers").hide();
+           $("#titulo").hide();
+         $("#divContainer").attr('style', 'background-color: transparent');
+      $("#divMomentos").hide();
+   $("#txtMomentos").hide();
+ $("#valores").show();
+
+  } );
+
+
+
+     $("#valores").click(function() {
+       $("#orcamentoMenu").show();
          $("#radio").hide();
            $("#foto").hide();
              $("#opcoes").hide();
@@ -193,28 +227,28 @@ $(document).ready(function(){
                        $(".hr").hide();
                          $("#pagamento").hide();
                            $("#resumo").hide();
-                         $("#home").show();
-                       $("#contato").show();
-                     $("#myDivHome").hide();
-                   $("#myDivHome2").hide();
-                 $(".container").hide(); 
-               $(".myDivSlide").show();
-             $("#promocao").show();
-           $(".none").show();
-         $("#cartoes").show();
-       $(".container").show();
-     $(".containers").show();
-   $("#titulo").hide();
-   $("#divContainer").attr('style', 'background-color: transparent');
-
+                             $("#valores").show();
+                               $("#contato").show();
+                                 $("#myDivValores").hide();
+                                   $("#myDivValores2").hide();
+                                     $(".myDivSlide").show();
+                                   $("#promocao").show();
+                                 $(".none").show();
+                               $("#cartoes").show();
+                             $(".container").show();
+                           $(".containers").show();
+                         $("#titulo").hide();
+                       $("#divContainer").attr('style', 'background-color: transparent');
+                     $("#divMomentos").hide();
+                  $("#txtMomentos").hide();
 
     } );
 
 
 
      $("#orcamentoMenu").click(function() {
-       $("#myDivHome").hide();
-         $("#myDivHome2").hide();
+       $("#myDivvalores").hide();
+         $("#myDivValores2").hide();
            $("#orcamento").show();
              $("#radio").show();
                $("#foto").show();
@@ -222,21 +256,50 @@ $(document).ready(function(){
                    $("#opcoes2").show();
                      $("#valor").show();
                        $("#orcamento").show();
-                        $("#radio").show();
-                       $(".hr").show();
-                     $("#pagamento").show();
-                   $(".hr").show();
-                 $("#resumo").show();
-               $(".container").show();
-             $(".myDivSlide").hide();
-           $("#promocao").hide();
-         $(".none").hide();
-       $("#cartoes").show();
-     $(".containers").hide();
-     $("#divContainer").attr('style', 'background-color: #ffb1cde6');
+                         $("#radio").show();
+                           $(".hr").show();
+                             $("#pagamento").show();
+                               $(".hr").show();
+                                 $("#resumo").show();
+                                   $(".container").show();
+                                     $(".myDivSlide").hide();
+                                   $("#promocao").hide();
+                                 $(".none").hide();
+                               $("#cartoes").show();
+                             $(".containers").hide();
+                           $("#divContainer").attr('style', 'background-color: #ffb1cde6');
+                         $("#divMomentos").hide();
+                       $("#txtMomentos").hide();
     } );
 
 
+
+
+
+     $("#momentos").click(function() {
+       $("#myDivValores").hide();
+         $("#myDivValores2").hide();
+           $("#orcamento").hide();
+             $("#radio").hide();
+               $("#foto").hide();
+                 $("#opcoes").hide();
+                   $("#opcoes2").hide();
+                     $("#valor").hide();
+                       $("#orcamento").hide();
+                         $("#radio").hide();
+                           $("#pagamento").hide();
+                             $(".hr").hide();
+                               $("#resumo").hide();
+                                 $(".container").hide();
+                                   $(".myDivSlide").hide();
+                                 $("#promocao").hide();
+                               $(".none").hide();
+                             $("#cartoes").hide();
+                           $(".containers").hide();
+                         $("#divContainer").hide();
+                       $("#divMomentos").show();
+                     $("#txtMomentos").show();
+    } );
 
 
 
@@ -252,10 +315,10 @@ $(document).ready(function(){
                    $(".hr").hide();
                      $("#pagamento").hide();
                        $("#resumo").hide();
-                     $("#home").show();
+                     $("#valores").show();
                    $("#contato").show();
-                 $("#myDivHome").show();
-               $("#myDivHome2").show();
+                 $("#myDivValores").show();
+               $("#myDivValores2").show();
              $(".container").hide();
            $(".myDivSlide").hide();
          $("#promocao").hide();
@@ -263,6 +326,8 @@ $(document).ready(function(){
      $("#cartoes").hide();
    $(".containers").hide();
    $("#divContainer").attr('style', 'background-color: transparent');
+   $("#divMomentos").hide();
+   $("#txtMomentos").hide();
 
    } );  
 } );
