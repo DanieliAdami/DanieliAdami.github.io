@@ -199,8 +199,8 @@ $(document).ready(function(){
                              $("#myDivValores").hide();
                            $("#myDivValores2").hide();
                          $(".container").hide(); 
-                       $(".myDivSlide").hide();
-                     $("#promocao").hide();
+                       $(".myDivSlide").show();
+                     $("#promocao").show();
                    $(".none").hide();
                  $("#cartoes").hide();
                $(".container").hide();
@@ -231,8 +231,8 @@ $(document).ready(function(){
                                $("#contato").show();
                                  $("#myDivValores").hide();
                                    $("#myDivValores2").hide();
-                                     $(".myDivSlide").show();
-                                   $("#promocao").show();
+                                     $(".myDivSlide").hide();
+                                   $("#promocao").hide();
                                  $(".none").show();
                                $("#cartoes").show();
                              $(".container").show();

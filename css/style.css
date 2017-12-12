@@ -68,8 +68,26 @@ body{
     min-width: 900px;
 }
 
+
+.menu2{
+    background-color: #ff70c6;
+    height: 60px;
+    font-family: fonte1;
+    font-size: 200%;
+    min-width: 1930px;
+
+}
+
 .menu{
 	margin: 0 auto;
+}
+
+
+.menuNome{
+    margin: 0 auto;
+    color: #e3e9ff;
+    margin-right: 42%;
+
 }
 
 
@@ -101,7 +119,7 @@ body{
     background-color: #ffb1cde6;
     width: 10%;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .fontDani{
@@ -150,7 +168,7 @@ body{
 #titulo{
 	width: 40%;
     margin: 0 auto;
-    color: #ff166c;
+    color: #ff1fa5;
     font-family: fonte1;
     font-size: 306%;
     min-width: 372px;
@@ -276,6 +294,7 @@ h6{
 
 #logoImg{
     height: 100%;
+    margin-left: 37%;
 }
 
 #resumo {
@@ -322,3 +341,5 @@ h6{
     min-width: 1365px;
     display: none;
 }
+
+
