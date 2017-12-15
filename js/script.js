@@ -183,151 +183,100 @@ $(document).ready(function(){
 
 
  $("#home").click(function() {
-   $("#orcamentoMenu").show();
-     $("#radio").hide();
-       $("#foto").hide();
-         $("#opcoes").hide();
-           $("#opcoes2").hide();
-             $("#valor").hide();
-               $("#orcamento").hide();
-                 $("#radio").hide();
-                   $(".hr").hide();
-                     $("#pagamento").hide();
-                       $("#resumo").hide();
-                         $("#valores").hide();
-                           $("#contato").show();
-                             $("#myDivValores").hide();
-                           $("#myDivValores2").hide();
-                         $(".container").hide(); 
-                       $(".myDivSlide").show();
-                     $("#promocao").show();
-                   $(".none").hide();
-                 $("#cartoes").hide();
-               $(".container").hide();
-             $(".containers").hide();
-           $("#titulo").hide();
-         $("#divContainer").attr('style', 'background-color: transparent');
-      $("#divMomentos").hide();
-   $("#txtMomentos").hide();
- $("#valores").show();
-
-  } );
+          $("#clickHome").show();
+          $("#containerPreco").hide();
+          $(".container").hide();
+          $("#titulo").hide();
+          $("#divMomentos").hide();
+          $("#divContainer").hide();
+          $("#clickContato").hide();
+          $("#home").css("background-color", "#ff70c6");
+          $("#valores").css("background-color", "#ffb1cd");
+          $("#orcamentoMenu").css("background-color", "#ffb1cd");
+          $("#momentos").css("background-color", "#ffb1cd");
+          $("#momentos").css("background-color", "#ffb1cd");
+} );
 
 
 
      $("#valores").click(function() {
-       $("#orcamentoMenu").show();
-         $("#radio").hide();
-           $("#foto").hide();
-             $("#opcoes").hide();
-               $("#opcoes2").hide();
-                 $("#valor").hide();
-                   $("#orcamento").hide();
-                     $("#radio").hide();
-                       $(".hr").hide();
-                         $("#pagamento").hide();
-                           $("#resumo").hide();
-                             $("#valores").show();
-                               $("#contato").show();
-                                 $("#myDivValores").hide();
-                                   $("#myDivValores2").hide();
-                                     $(".myDivSlide").hide();
-                                   $("#promocao").hide();
-                                 $(".none").show();
-                               $("#cartoes").show();
-                             $(".container").show();
-                           $(".containers").show();
-                         $("#titulo").hide();
-                       $("#divContainer").attr('style', 'background-color: transparent');
-                     $("#divMomentos").hide();
-                  $("#txtMomentos").hide();
-
-    } );
+          $("#clickHome").hide();
+          $("#containerPreco").show();
+          $(".container").hide();
+          $("#titulo").hide();
+          $(".containers").show();
+          $("#cartoes").show();
+          $("#divMomentos").hide();
+          $("#clickContato").hide();
+          $("#valores").css("background-color", "#ff70c6");
+          $("#home").css("background-color", "#ffb1cd");
+          $("#orcamentoMenu").css("background-color", "#ffb1cd");
+          $("#momentos").css("background-color", "#ffb1cd");
+          $("#contato").css("background-color", "#ffb1cd");
+} );
 
 
 
      $("#orcamentoMenu").click(function() {
-       $("#myDivvalores").hide();
-         $("#myDivValores2").hide();
-           $("#orcamento").show();
-             $("#radio").show();
-               $("#foto").show();
-                 $("#opcoes").show();
-                   $("#opcoes2").show();
-                     $("#valor").show();
-                       $("#orcamento").show();
-                         $("#radio").show();
-                           $(".hr").show();
-                             $("#pagamento").show();
-                               $(".hr").show();
-                                 $("#resumo").show();
-                                   $(".container").show();
-                                     $(".myDivSlide").hide();
-                                   $("#promocao").hide();
-                                 $(".none").hide();
-                               $("#cartoes").show();
-                             $(".containers").hide();
-                           $("#divContainer").attr('style', 'background-color: #ffb1cde6');
-                         $("#divMomentos").hide();
-                       $("#txtMomentos").hide();
-    } );
+        $("#clickHome").hide();
+        $("#clickHContato").hide();
+        $("#containerPreco").hide();
+        $("#divContainer").show();
+        $("#cartoes").show();
+        $("#divMomentos").hide();
+        $("#radio").show();
+        $("#foto").show();
+        $("#opcoes").show();
+        $("#opcoes2").show();
+        $("#valor").show();
+        $("#orcamento").show();
+        $("#radio").show();
+        $(".hr").show();
+        $("#pagamento").show();
+        $(".hr").show();
+        $("#resumo").show();
+        $(".container").show();
+        $("#orcamentoMenu").css("background-color", "#ff70c6");
+        $("#valores").css("background-color", "#ffb1cd");
+        $("#home").css("background-color", "#ffb1cd");
+        $("#momentos").css("background-color", "#ffb1cd");
+        $("#contato").css("background-color", "#ffb1cd");
+} );
 
 
 
 
 
      $("#momentos").click(function() {
-       $("#myDivValores").hide();
-         $("#myDivValores2").hide();
-           $("#orcamento").hide();
-             $("#radio").hide();
-               $("#foto").hide();
-                 $("#opcoes").hide();
-                   $("#opcoes2").hide();
-                     $("#valor").hide();
-                       $("#orcamento").hide();
-                         $("#radio").hide();
-                           $("#pagamento").hide();
-                             $(".hr").hide();
-                               $("#resumo").hide();
-                                 $(".container").hide();
-                                   $(".myDivSlide").hide();
-                                 $("#promocao").hide();
-                               $(".none").hide();
-                             $("#cartoes").hide();
-                           $(".containers").hide();
-                         $("#divContainer").hide();
-                       $("#divMomentos").show();
-                     $("#txtMomentos").show();
-    } );
+        $("#clickHome").hide();
+        $("#containerPreco").hide();
+        $("#divContainer").hide();
+        $(".container").hide();
+        $("#cartoes").hide();
+        $("#divMomentos").show();
+        $("#txtMomentos").show();
+        $("#clickContato").hide();
+        $("#momentos").css("background-color", "#ff70c6");
+        $("#valores").css("background-color", "#ffb1cd");
+        $("#home").css("background-color", "#ffb1cd");
+        $("#orcamentoMenu").css("background-color", "#ffb1cd");
+        $("#contato").css("background-color", "#ffb1cd");
+} );
 
 
 
  $("#contato").click(function() {
-   $("#orcamento").hide();
-     $("#radio").hide();
-       $("#foto").hide();
-         $("#opcoes").hide();
-           $("#opcoes2").hide();
-             $("#valor").hide();
-               $("#orcamento").hide();
-                 $("#radio").hide();
-                   $(".hr").hide();
-                     $("#pagamento").hide();
-                       $("#resumo").hide();
-                     $("#valores").show();
-                   $("#contato").show();
-                 $("#myDivValores").show();
-               $("#myDivValores2").show();
-             $(".container").hide();
-           $(".myDivSlide").hide();
-         $("#promocao").hide();
-       $(".none").hide();
-     $("#cartoes").hide();
-   $(".containers").hide();
-   $("#divContainer").attr('style', 'background-color: transparent');
-   $("#divMomentos").hide();
-   $("#txtMomentos").hide();
-
+        $("#clickHome").hide();
+        $("#containerPreco").hide();
+        $("#divContainer").hide();
+        $(".container").hide();
+        $("#cartoes").hide();
+        $("#divMomentos").hide();
+        $("#clickContato").show();
+        $("#contato").css("background-color", "#ff70c6");
+        $("#valores").css("background-color", "#ffb1cd");
+        $("#home").css("background-color", "#ffb1cd");
+        $("#orcamentoMenu").css("background-color", "#ffb1cd");
+        $("#momentos").css("background-color", "#ffb1cd");
    } );  
 } );

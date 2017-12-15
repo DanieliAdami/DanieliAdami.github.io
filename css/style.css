@@ -13,12 +13,14 @@ body{
     height:20%;
     margin-top: -78px;
     min-width: 279px;
+    display: none;
 }
 
 
 #radio{
     text-align: center;
     font-family: fonte4;
+    display: none;
 }
 
 #myDivValores{
@@ -32,32 +34,32 @@ body{
     min-width: 468px;
 }
 
-#myDivValores2{
-    height: 64%;
+#clickContato{
+    height: 68%;
     width: 50%;
-    background-color: #f11f5970;
-    position: fixed;
+    background-color: #e3e9ff;
     top: 24%;
     right: 27%;
     display: none;
     min-width: 397px;
+    margin: 0 auto;
 }
 
 
 #textTitulo{
 	text-align: center;
-    margin-top: 2%;
+    margin-top: 25%;
     text-decoration: underline;
     font-family: fonte1;
 }
 
 #text{
     text-align: center;
-    position: fixed;
     height: 40%;
     width: 50%;
     min-width: 372px;
     bottom: 19%;
+    margin: 0 auto;
 }
 
 .menu1{
@@ -114,12 +116,12 @@ body{
     margin-top: 10px;
     font-family: fonte2;
     font-size: 600%;
-    color: black;
+    color: #ffe9e9;
     min-width: 900px;
-    background-color: #ffb1cde6;
     width: 10%;
     margin: 0 auto;
     margin-top: 4%;
+    display: block;
 }
 
 .fontDani{
@@ -138,7 +140,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    display: none;
+    display: block;
     min-width: 900px;
 }
 
@@ -172,6 +174,7 @@ body{
     font-family: fonte1;
     font-size: 306%;
     min-width: 372px;
+    display: none;
 }
 
 #orcamento{
@@ -195,19 +198,23 @@ body{
 	width: 42%;
     margin: 0 auto;
     min-width: 382px;
+
 }
 
 #valor{
 	width: 40%;
     margin: 0 auto;
     min-width: 334px;
+    display: none;
+     margin-bottom: 2%;
 }
 
 #pagamento{
-	width: 117%;
+    width: 124%;
     margin: 0 auto;
-    margin-left: -56px;
+    margin-left: -10px;
     min-width: 1020px;
+    margin-top: 58px;
 }
 
 #entrada{
@@ -227,6 +234,7 @@ body{
     margin: 0 auto;
     margin-top: 140px;
     min-width: 900px;
+    display: none;
 }
 
 .logoCartoes{
@@ -258,10 +266,12 @@ body{
 
 #divContainer{
     margin: 0 auto;
-    height: 1060px;
-    background-color: #ffb1cde6;
+    height: 100%;
+    background-color: #ffb1cdf2;
     width: 80%;
     min-width: 1155px;
+    display: none;
+    margin-top: 5%;
 }
 
 #card1{
@@ -300,9 +310,10 @@ h6{
 #resumo {
     width: 29%;
     margin: 0 auto;
-    height: 14%;
-    margin-top: -5%;
-    margin-right: 35%;
+    height: 17%;
+    margin-top: -6%;
+    margin-right: 28%;
+    display: none;
 }
 
 
@@ -312,21 +323,19 @@ h6{
 
 
 #divMomentos{
-    height: 1000px;
+    height: 1590;
     width: 80%;
-    background-color: #ffb1cde8;
+    background-color: #e3e9ff;
     margin: 0 auto;
     display: none;
     min-width: 1366px;
+    margin-top: 5%;
 }
 
 
 
 .imgMomentos{
-    height: 30%;
-    width: 30%;
-    margin-left: 33px;
-    margin-top: 25px;
+   width: 30%;
 }
 
 
@@ -341,5 +350,61 @@ h6{
     min-width: 1365px;
     display: none;
 }
+
+.hr{
+    display: none;
+}
+
+#clickHome{
+    background-color: #000000de;
+    height: 712px;
+    width: 70%;
+    margin: 0 auto;
+    min-width: 920px;
+}
+
+
+
+.indicadores{
+    margin-bottom: 10%;
+}
+
+#containerPreco{
+    width: 55%;
+    margin: 0 auto;
+}
+
+     
+    
+
+#img1{
+         margin-bottom: 185px;
+         margin-left: 74px;
+         margin-top: 30px;
+}
+
+#img2{       
+             margin-bottom: 80px;
+}
+
+#img4{
+         margin-top: 4px;
+         margin-left: 74px;
+}
+
+#img5{
+         margin-bottom: 185px;
+}
+
+#img7{
+         margin-top: 33px;
+         margin-bottom: 42px;
+         margin-left: 74px;
+}
+
+#img8{
+    margin-bottom: 77px;
+}
+
 
 
